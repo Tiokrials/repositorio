@@ -1,0 +1,24 @@
+import json
+
+pedido = {
+    "OrderID": 12345,
+    "Address": "123 direcc, Ciudad , País ",
+    "Status": "Pending",
+    "Articles": [
+        {
+            "Name": "Artículo 1",
+            "Quantity": 2,
+            "Dangerous": false
+        },
+        {
+            "Name": "Artículo 2",
+            "Quantity": 1,
+            "Dangerous": true
+        },
+        {
+            "Name": "Artículo 3",
+            "Quantity": 5,
+            "Dangerous": false
+        }
+    ]
+}
